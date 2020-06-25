@@ -10,3 +10,6 @@ Here I post some useful LINUX Scripts making the work with CLI much more easier 
 * `fix_mssing.sh`
 fix missing handles one of the most frequently asked questions in LINUX: "Missing packages, libraries and dependecies". Running around the net I collected the most        possible solutions of that apt-get install problems into that file, meaning one has not more much researching if you got stuck on apt needs dependencies problems. 
 Simply try  ` fix_missng.sh`on CLI and the shell script tries several tricks to install failed programs.  
+
+* `stop_automount.sh`
+In case of disk disaster (USB sticks, SSDs, HDs) the comfort of a LINUX GUI is far more to hell, due to the automount (like in Windows). Stopping the automount behaviour by this script on can use tools like ddrescue, myrescue, testdisk, photorec, fsk_now.sh etc. to rescue your data of your disastered disk/stick etc. To start automount again simply reverse th commands by start and unmask
