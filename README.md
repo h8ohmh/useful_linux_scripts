@@ -1,5 +1,5 @@
 # useful_linux_scripts
-Here I post some useful LINUX Scripts making the work with CLI much more easier (eg Debian > Stretch):
+Here I post from time to time some useful LINUX Scripts making the work with CLI much more easier (eg Debian > Stretch):
 
 * `fsck_now.sh` 
   Uses fsck (ext2/ext3/ext4) with a automatically datetimed undo file, meaning that one doesn't have anymore to use those manyfold switches which one has to type in case of a data disaster...
