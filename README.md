@@ -12,4 +12,7 @@ fix missing handles one of the most frequently asked questions in LINUX: "Missin
 Simply try  ` fix_missng.sh`on CLI and the shell script tries several tricks to install failed programs.  
 
 * `stop_automount.sh`
-In case of disk disaster (USB sticks, SSDs, HDs) the comfort of a LINUX GUI is far more to hell, due to the automount (like in Windows). Stopping the automount behaviour by this script one can use tools like ddrescue, myrescue, testdisk, photorec, fsk_now.sh etc. to rescue your data of your disastered disk/stick etc. To start automount again simply reverse the commands by start and unmask
+In case of disk disaster (USB sticks, SSDs, HDs) the comfort of a LINUX GUI is far more to hell, due to the automount (like in Windows). Stopping the automount behaviour by this script one can use tools like ddrescue, myrescue, testdisk, photorec, fsk_now.sh, ntfsundelete etc. to rescue your data of your disastered disk/stick etc. To start automount again simply reverse the commands by start and unmask
+
+* `hexdump_at.sh`
+Hexdump_at corrects the missing feature to dump file data or disk memory data larger than 4G Bytes. This version uses the colorful hexer "hexyl", if you want to use hexdump then replace the `hexyl` command by `hexdump -C` in the shell file
